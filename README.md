@@ -1,7 +1,6 @@
 # Rest-API-in-PHP
 Create a simple REST API in PHP.
 
--------------------------------------------------------------
 
 Create categories table
 
@@ -13,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
   `modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
--------------------------------------------------------------
+
 
 Create Products table
 
